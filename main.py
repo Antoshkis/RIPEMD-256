@@ -87,7 +87,7 @@ def ripemd256(s):
     H = [0x67452301, 0xEFCDAB89, 0x98BADCFE, 0x10325476, 
          0x76543210, 0xFEDCBA98, 0x89ABCDEF, 0x01234567]
   
-for i in range(0, t):
+    for i in range(0, t):
       A1 = H[0]
       B1 = H[1]
       C1 = H[2]
